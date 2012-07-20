@@ -1,0 +1,18 @@
+{
+  "name": "Solar",
+  "version": "1.0",
+  "description": "Because sometimes someone is unable to do something that is wrong. Because sometimes someone gets so frustrated at having to do something unfair without prospect that it will help with anything that begins to wonder that so many things someone might be doing at this time with would be much more useful than that. Additionally, because sometimes someone talented just make time out of nowhere and make something even more epic. Because sometimes someone can be so awesome that can make fun of it. Then everyone salute him and in the very next day everyone forget it and return to work. -Noclip21",
+
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+
+  "content_scripts": [
+    {
+      "matches": ["http://solarpresencial.virtual.ufc.br/*"],
+      "js": ["jquery.js", "background.js"]
+    }
+  ],
+
+  "manifest_version": 1
+}
